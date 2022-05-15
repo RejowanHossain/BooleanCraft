@@ -13107,7 +13107,7 @@ textarea.form-control {
 
 .work-img {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     display: table;
     margin-bottom: 30px;
 }
@@ -13169,7 +13169,7 @@ textarea.form-control {
 }
 
 .work-img .desc span {
-    font-size: 18px;
+    font-size: 15px;
     color: rgba(0, 0, 0);
 }
 
@@ -13177,7 +13177,9 @@ textarea.form-control {
     color: #000;
     font-size: 38px;
 }
-
+.work-img .desc h4{
+    font-size: 18px;
+}
 @media screen and (max-width: 768px) {
     .work-img .desc h3 {
         font-size: 28px;
@@ -13189,7 +13191,7 @@ textarea.form-control {
     top: -80px;
     right: 3em;
     color: #fff;
-    padding: 2em 1.5em;
+    padding: 1em 1.5em;
     background: #000;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -13203,10 +13205,11 @@ textarea.form-control {
 }
 
 .work-img .desc .icon {
+    visibility: hidden;
     width: 60px;
     height: 60px;
     margin: 0 auto;
-    display: table;
+    /* display: table; */
     margin-bottom: 2em;
     background: #000;
     color: #fff;
